@@ -4,10 +4,7 @@
 
 body {
 	padding-top: 60px;
-}
-
-section {
-	overflow: auto;
+	background-image: url("https://s-media-cache-ak0.pinimg.com/236x/a9/55/2d/a9552dbfa7ebcd612269885a6d9779f6.jpg");
 }
 
 textarea {
@@ -48,4 +45,70 @@ h3	 {
 p {
 	font-size: 1.1em;
 	line-height: 1.7em;
+}
+
+/* footer */
+
+footer {
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid lavender;
+	color: black;
+}
+
+footer a {
+	color: black;
+}
+
+footer a:hover {
+	color: blue;
+}
+
+footer small {
+	float: left;
+}
+
+footer ul {
+	float: right;
+	list-style: none;
+}
+
+footer ul li {
+	float: left;
+	margin-left: 15px;
+}
+
+/* navigation bar */
+
+.navbar-nav>li {
+	float: none;
+	text-align: center;
+	display: inline-block;
+}
+
+.navbar-nav>li a:hover {
+	background-color: rgba(250, 250, 250, 0.25);
+}
+
+.custom_navbar {
+	background-color: rgba(250, 250, 250, 0.65);
+	margin-left: 75px;
+	margin-right: 75px;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+
+.custom_navbar a{
+	color: black;
+}
+
+.custom_navbar a:hover{
+	background-color: rgba(0, 0, 0, 0);
+}
+
+/* jumbotron */
+
+.custom_jumbotron {
+	background-color: rgba(250, 250, 250, 0.65);
+	font-family: Helvetica;
 }
